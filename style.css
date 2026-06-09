@@ -405,8 +405,10 @@ ul { list-style: none; }
 }
 
 /* ============================================
-   PROFILE CARD  ← CORRECCIÓN AQUÍ
+   PROFILE CARD
    ============================================ */
+.profile-card { overflow: visible; }
+
 .profile-cover {
   height: 40px;
   background: linear-gradient(135deg, var(--red-dark) 0%, var(--blue) 100%);
@@ -429,7 +431,11 @@ ul { list-style: none; }
   flex-wrap: wrap;
 }
 
-.profile-avatar-wrap { margin-top: -52px; }
+.profile-avatar-wrap {
+  margin-top: -52px;
+  position: relative;
+  z-index: 2;
+}
 
 .profile-avatar {
   width: 96px;
