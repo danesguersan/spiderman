@@ -437,12 +437,13 @@ ul { list-style: none; }
 .profile-body {
   padding: 0 24px 24px;
   display: flex;
+  align-items: flex-start;
   gap: 20px;
   flex-wrap: wrap;
 }
 
 .profile-avatar-wrap {
-  margin-top: -48px;
+  margin-top: -32px;
   flex-shrink: 0;
 }
 
