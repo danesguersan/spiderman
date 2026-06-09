@@ -408,7 +408,7 @@ ul { list-style: none; }
    PROFILE CARD  ← CORRECCIÓN AQUÍ
    ============================================ */
 .profile-cover {
-  height: 80px; /* ← era 120px, reducido para no tapar el avatar */
+  height: 60px; /* ← era 120px, reducido para no tapar el avatar */
   background: linear-gradient(135deg, var(--red-dark) 0%, var(--blue) 100%);
   position: relative;
 }
@@ -429,7 +429,7 @@ ul { list-style: none; }
   flex-wrap: wrap;
 }
 
-.profile-avatar-wrap { margin-top: -48px; } /* ← era -40px, sube más el avatar */
+.profile-avatar-wrap { margin-top: -56px; } /* ← era -40px, sube más el avatar */
 
 .profile-avatar {
   width: 96px;
