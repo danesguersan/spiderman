@@ -443,7 +443,7 @@ ul { list-style: none; }
 }
 
 .profile-avatar-wrap {
-  margin-top: -32px;
+  margin-top: -16px;
   flex-shrink: 0;
 }
 
