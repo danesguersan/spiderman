@@ -408,7 +408,7 @@ ul { list-style: none; }
    PROFILE CARD  ← CORRECCIÓN AQUÍ
    ============================================ */
 .profile-cover {
-  height: 60px;
+  height: 40px;
   background: linear-gradient(135deg, var(--red-dark) 0%, var(--blue) 100%);
   position: relative;
 }
@@ -417,7 +417,7 @@ ul { list-style: none; }
   content: '🕷';
   position: absolute;
   right: 24px;
-  bottom: -16px;
+  top: 4px;
   font-size: 60px;
   opacity: 0.12;
 }
@@ -429,7 +429,7 @@ ul { list-style: none; }
   flex-wrap: wrap;
 }
 
-.profile-avatar-wrap { margin-top: -64px; }
+.profile-avatar-wrap { margin-top: -52px; }
 
 .profile-avatar {
   width: 96px;
@@ -853,7 +853,7 @@ ul { list-style: none; }
   .section-title { font-size: 24px; }
 
   .profile-body { flex-direction: column; }
-  .profile-avatar-wrap { margin-top: -48px; align-self: flex-start; }
+  .profile-avatar-wrap { margin-top: -52px; align-self: flex-start; }
 
   .post-img { height: 200px; }
 
