@@ -404,9 +404,11 @@ ul { list-style: none; }
   transform: translateY(-2px);
 }
 
-/* Profile Card */
+/* ============================================
+   PROFILE CARD  ← CORRECCIÓN AQUÍ
+   ============================================ */
 .profile-cover {
-  height: 120px;
+  height: 80px; /* ← era 120px, reducido para no tapar el avatar */
   background: linear-gradient(135deg, var(--red-dark) 0%, var(--blue) 100%);
   position: relative;
 }
@@ -427,7 +429,7 @@ ul { list-style: none; }
   flex-wrap: wrap;
 }
 
-.profile-avatar-wrap { margin-top: -40px; }
+.profile-avatar-wrap { margin-top: -48px; } /* ← era -40px, sube más el avatar */
 
 .profile-avatar {
   width: 96px;
@@ -851,7 +853,7 @@ ul { list-style: none; }
   .section-title { font-size: 24px; }
 
   .profile-body { flex-direction: column; }
-  .profile-avatar-wrap { margin-top: -40px; align-self: flex-start; }
+  .profile-avatar-wrap { margin-top: -40px; align-self: flex-start; } /* mobile: -40px está bien con cover de 80px */
 
   .post-img { height: 200px; }
 
