@@ -388,9 +388,13 @@ ul { list-style: none; }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  overflow: hidden;
   transition: var(--transition);
   animation: card-in 0.5s ease both;
+}
+
+/* overflow solo donde se necesita para no cortar el avatar del profile-card */
+.post-img-wrap {
+  overflow: hidden;
 }
 
 @keyframes card-in {
